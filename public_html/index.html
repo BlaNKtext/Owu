@@ -2,11 +2,14 @@
 <html>
 
 <head>
+    <meta property="og:title" content="Owu!home">
+    <meta property="og:image" content="https://i.ibb.co/DKgvZ4z/favicon.png">
+    <meta property="og:description" content="The Unofficial port of 'Osu!'"">
+    <meta property="og:url" content="https://owubeta.surge.sh/index.html">
     <meta charset="utf-8" />
-    <title>Owu!</title>
+    <title>Owu!beta Home</title>
     <link rel="stylesheet" href="style/picnic.min.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
-    <!-- <link href="//fonts.googleapis.com/css?family=Exo+2:400,600italic" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" type="text/css" href="style/font.css">
     <link rel="icon" href="favicon.png">
     <script src="scripts/launchgame.js"></script>
@@ -124,11 +127,12 @@
             </div>
             <div class="text">
             </div>
-            <div class="text"><a href="https://paypal.me/Sayobot">Donate to Sayobot on paypal</a></div>
-            <div class="text">It is recommended to use the updated version of Firefox or Chrome.</div>
-            <div class="text">Beta version v1.4.3<a href="https://github.com/111116/osu"> Github</a></div>
-            <div class="text">Made by: <a href="https://osu.sayobot.cn/"> Sayobot</a> Provide chart</div>
-            <div class="text">Translated by: <a href="https://github.com/BlaNKtext"> BlaNK</a>.</div>
+            <div class="text">Translated & This site made by: <a href="https://github.com/user/BlaNKtext"> BlaNK</a>.</div>
+            <div class="text">Official <a href="https://github.com/BlaNKtext/Owubeta">Github</a> Repo (The one for this exact site)</div>
+            <div class="text">Root <a href="https://github.com/111116/webosu">repo </a> for the site (I had no part in this)</div>
+            <div class="text">Originally made by: <a href="https://osu.sayobot.cn/"> Sayobot</a> <=(Opens website)</div>
+            <div class="text">It is recommended to use the updated version of Firefox or Chrome, Other browsers such as Brave, Opera, etc. may run into compatibilty issues</div>
+            <div class="text">Beta version vB.e.t.a<a href="https://github.com/BlaNKtext/Owubeta"></a></div>
         </div>
 
         <div class="statuslines" id="statuslines">
@@ -237,7 +241,7 @@
                         addBeatmapSid(sid[i], listhistory)
                 } else {
                     listhistory.innerText =
-                        "You haven't played this song yet! Click on the track and select the difficulty to start playing after loading.";
+                        "You haven't played any songs yet! Click on the track and select the difficulty to start playing after loading.";
                 }
             })
         }
@@ -282,7 +286,7 @@
                 }
             });
         } else {
-            alert("localforage not supported")
+            alert("Uh oh, localforage isn't supported on this browser")
         }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
