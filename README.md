@@ -1,4 +1,4 @@
-# owu!  (fork of Webosu)
+# owu!  (fork of [Webosu](https://github.com/111116/webosu))
 
 A fork of a browser rhythm game where players click circles following rhythm of the music.
 
@@ -10,11 +10,12 @@ Note: Some music might not be perfectly synced and modes other than osu! (standa
 
 [web page:](http://owu.surge.sh/)
 
-![webpage](screenshots/SS1.png)
+![webpage](Screenshots/SS1.png)
 
 Gameplay:
 
-![webpage](screenshots/clip3.gif)
+![webpage](Screenshots/clip.gif)
+
 Credits for gameplay go to [original repo](https://github.com/111116/webosu)
 ## Hosting
 
