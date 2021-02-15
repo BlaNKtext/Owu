@@ -1,4 +1,4 @@
-# This is archived and moved to Owubeta as a legacy branch
+# This is archived and moved to [Owubeta](https://github.com/BlaNKtext/Owubeta) as a legacy branch
 
 
 
